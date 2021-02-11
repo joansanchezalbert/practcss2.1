@@ -76,3 +76,7 @@ p.ciclos::before {
 p.cursiva {
     font-style: italic;
 }
+
+img {
+    float: right;
+}
