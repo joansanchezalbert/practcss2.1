@@ -36,3 +36,43 @@ span.nav3:hover {
 div p::first-line {
     color: red;
 }
+
+a.a1:link {
+    background-color: white;
+}
+
+a.a1:visited {
+    background-color: blue;
+    color: white;
+}
+
+a.a2:link {
+    background-color: white;
+}
+
+a.a2:visited {
+    background-color: blue;
+    color: white;
+}
+
+a.a3:link {
+    background-color: white;
+}
+
+a.a3:visited {
+    background-color: blue;
+    color: white;
+}
+
+h4 {
+    counter-reset: cuenta-ciclos;
+}
+
+p.ciclos::before {
+    content: counter(cuenta-ciclos) ". ";
+    counter-increment: cuenta-ciclos;
+}
+
+p.cursiva {
+    font-style: italic;
+}
