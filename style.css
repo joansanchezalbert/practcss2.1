@@ -1,0 +1,38 @@
+body {
+    background-color: #c1dde8;
+}
+
+div.titulo {
+    text-align: center;
+    color: blue;
+    
+}
+
+div h2:first-letter{
+    font-size: 70px;
+    color: black;
+}
+
+p.nav {
+    color: blue;
+    text-align: center;
+}
+
+span.nav1:hover {
+    background-color: yellow;
+    color: red;
+}
+
+span.nav2:hover {
+    background-color: yellow;
+    color: red;
+}
+
+span.nav3:hover {
+    background-color: yellow;
+    color: red;
+}
+
+div p::first-line {
+    color: red;
+}
